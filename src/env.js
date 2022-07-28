@@ -1,8 +1,8 @@
 export const env = {
     // NOTE: Replace with your own project configuration
     three0Config: {
-        "contractName": "chat_app-czbxtcwm5sjognd51bhdep.vlasp.testnet",
-        "projectId": "chat_app-czbxtcwm5sjognd51bhdep",
+        "contractName": "lightswitch-fdgue6gvxqubdn7by6mpve.vlasp.testnet",
+        "projectId": "lightswitch-fdgue6gvxqubdn7by6mpve",
         "chainType": "NEAR_TESTNET"
     },
     // NOTE: Add your own docstore database here
