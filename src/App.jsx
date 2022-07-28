@@ -11,7 +11,7 @@ function App() {
     <Router>
     <Routes>
         <Route path='/' element={isLoggedIn() ? <Navigate to='/home' /> : <Login /> } />
-        <Route exact path='/home' element={isLoggedIn() ? <Home/> : <Navigate to='/login' />}> 
+        <Route exact path='/home' element={isLoggedIn() ? <Home/> : <Navigate to='/' />}> 
         </Route>
     </Routes>
     </Router>
