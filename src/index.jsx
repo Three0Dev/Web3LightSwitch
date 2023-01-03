@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import env from './env';
-import init from 'three0-js-sdk';
+import { init } from '@three0dev/js-sdk';
 
 init(env.three0Config).then(() => {
   const root = ReactDOM.createRoot(

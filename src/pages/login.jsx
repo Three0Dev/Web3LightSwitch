@@ -1,11 +1,11 @@
 import React from 'react';
-import {login} from 'three0-js-sdk/auth'
+import { Auth } from '@three0dev/js-sdk';
 
 export const Login = () => {
     return (
         <div>
         <h1>Login</h1>
-        <button onClick={() => login()}>Login</button>
+        <button onClick={() => Auth.loginWithWallet()}>Login</button>
         </div>
     );
 }
